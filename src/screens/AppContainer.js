@@ -12,7 +12,7 @@ const AppNavigator = createStackNavigator({
   MovieDetail: MovieDetail
 
 },{
-  initialRouteName: 'Dashboard',
+  initialRouteName: 'Login',
   style: {
     paddingTop: Platform.OS === 'ios' ? 0 : StatusBar.currentHeight
   }
